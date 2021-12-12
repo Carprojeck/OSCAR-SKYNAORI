@@ -94,7 +94,7 @@ buttons = [
         InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅ​", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ​", callback_data="Skyzu_back"),
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ​", callback_data="Skyzu_"),
         InlineKeyboardButton(
             text="ᴛʀʏ ɪɴʟɪɴᴇ​​​", switch_inline_query_current_chat=""
         ),
@@ -109,7 +109,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ ᴀᴅᴅ sᴋʏᴢᴜ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ ➗", url="t.me/OscarrRobot?startgroup=new"),
+            text="➗ ᴀᴅᴅ ᴏꜱᴄᴀʀ ʀᴏʙᴏᴛ ᴛᴏ ʏᴏᴜ ɢʀᴏᴜᴘ​ ➗", url="t.me/OscarrRobot?startgroup=new"),
     ],
 ]
 
@@ -429,7 +429,7 @@ def Skyzu_about_callback(update, context):
             ),
         )
 
-    elif query.data == "Oscar_notes":
+    elif query.data == "Skyzu_notes":
         query.message.edit_text(
             text=f"<b>๏ Setting up notes</b>"
             f"\nYou can save message/media/audio or anything as notes"
@@ -440,7 +440,7 @@ def Skyzu_about_callback(update, context):
                 [[InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_")]]
             ),
         )
-    elif query.data == "Oscar_support":
+    elif query.data == "Skyzu_support":
         query.message.edit_text(
             text="*๏ Oscar support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on GwMuluAjg.",
@@ -462,7 +462,7 @@ def Skyzu_about_callback(update, context):
 
     elif query.data == "Oscar_credit":
         query.message.edit_text(
-            text=f"<b>๏ Credis for Oscar</b>\n"
+            text=f"<b>๏ Credis for Skyzu</b>\n"
             f"\nHere Developers Making The OscarrRobot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
