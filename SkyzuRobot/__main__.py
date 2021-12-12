@@ -381,18 +381,18 @@ def Skyzu_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ᴀᴅᴍɪɴs​", callback_data="Oscar_admin"),
-                    InlineKeyboardButton(text="ɴᴏᴛᴇs​", callback_data="Oscar_notes"),
+                    InlineKeyboardButton(text="ᴀᴅᴍɪɴs​", callback_data="Skyzu_admin"),
+                    InlineKeyboardButton(text="ɴᴏᴛᴇs​", callback_data="Skyzu_notes"),
                  ],
                  [
                     InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", callback_data="Daarkevilshadow"),
-                    InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs​", callback_data="Skyzu_credit"),
+                    InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs​", callback_data="Oscar_credit"),
                  ],
                  [
                     InlineKeyboardButton(text="ᴍᴜsɪᴄᴘʟᴀʏᴇʀ​", callback_data="source_"),
                  ],
                  [
-                    InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Oscar_back"),
+                    InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_back"),
                  ]
                 ]
             ),
@@ -412,7 +412,7 @@ def Skyzu_about_callback(update, context):
                 disable_web_page_preview=True,
         )
 
-    elif query.data == "Oscar_admin":
+    elif query.data == "Skyzu_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
             "\nCongragulations, OscarrRobot now ready to manage your group."
@@ -425,7 +425,7 @@ def Skyzu_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Oscar_")]]
+                [[InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_")]]
             ),
         )
 
@@ -437,12 +437,12 @@ def Skyzu_about_callback(update, context):
             f"\n\nYou can also set buttons for notes and filters (refer help menu)",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Oscar_")]]
+                [[InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_")]]
             ),
         )
-    elif query.data == "Skyzu_support":
+    elif query.data == "Oscar_support":
         query.message.edit_text(
-            text="*๏ Skyzu support chats*"
+            text="*๏ Oscar support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on GwMuluAjg.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -452,7 +452,7 @@ def Skyzu_about_callback(update, context):
                     InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs​", url="https://t.me/Car_projeck"),
                  ],
                  [
-                    InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Oscar_"),
+                    InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_"),
                  
                  ]
                 ]
@@ -460,7 +460,7 @@ def Skyzu_about_callback(update, context):
         )
 
 
-    elif query.data == "Skyzu_credit":
+    elif query.data == "Oscar_credit":
         query.message.edit_text(
             text=f"<b>๏ Credis for Oscar</b>\n"
             f"\nHere Developers Making The OscarrRobot",
@@ -468,10 +468,10 @@ def Skyzu_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Skyzu", url="t.me/GwMuluAjg"),
+                    InlineKeyboardButton(text="Oscar", url="t.me/GwMuluAjg"),
                  ],
                  [
-                    InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Oscar_"),
+                    InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_"),
                  
                  ]
                 ]
@@ -498,7 +498,7 @@ def Source_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Oscar_")
+                    InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_")
                  ]
                 ]
             ),
