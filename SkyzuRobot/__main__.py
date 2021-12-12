@@ -94,14 +94,14 @@ buttons = [
         InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅ​", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ​", callback_data="Skyzu_"),
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ​", callback_data="Skyzu_back"),
         InlineKeyboardButton(
             text="ᴛʀʏ ɪɴʟɪɴᴇ​​​", switch_inline_query_current_chat=""
         ),
     ],
     [
         InlineKeyboardButton(
-            text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​", url="https://github.com"
+            text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​", url="www.xnxx.com"
         ),
         InlineKeyboardButton(
             text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_CHAT}"
